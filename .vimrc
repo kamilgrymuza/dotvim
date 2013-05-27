@@ -95,7 +95,7 @@ let NERDTreeWinSize=40
 let NERDTreeShowBookmarks=1
 
 " Location of the file in which NERDTree keeps its bookmarks.
-let NERDTreeBookmarksFile="~/.NERDTreeBookmarks"
+let NERDTreeBookmarksFile=expand('$HOME/.NERDTreeBookmarks')
 
 " Ignore some files.
 let NERDTreeIgnore=['\.pyc$', '^.git$', '\~$' ]
