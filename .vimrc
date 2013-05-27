@@ -11,6 +11,9 @@ set nocompatible
 " Turn on highlighting by default.
 syntax on
 
+" Turn on line numbering by default.
+set number
+
 " Set the marker at line 80 to fit the text in 79 columns as suggested by PEP8.
 set colorcolumn=80
 
