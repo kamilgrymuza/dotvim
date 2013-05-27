@@ -24,6 +24,9 @@ set formatoptions+=c
 " insert.
 set backspace=indent,eol,start
 
+" Set default encoding to UTF-8 (helps with NERDTree display issues too).
+set encoding=utf-8
+
 
 " -----------------------------------------------------------------------------
 " TAB SETTINGS 
@@ -68,4 +71,31 @@ colorscheme lucius
 
 " Select lucius theme flavour.
 LuciusDarkHighContrast
+
+
+" -----------------------------------------------------------------------------
+" NERDTREE
+" -----------------------------------------------------------------------------
+
+" Set width of tree window to 40 columns.
+let NERDTreeWinSize=40
+
+" Show bookmarks in tree.
+let NERDTreeShowBookmarks=1
+
+" Location of the file in which NERDTree keeps its bookmarks.
+let NERDTreeBookmarksFile="~/.NERDTreeBookmarks"
+
+" Ignore some files.
+let NERDTreeIgnore=['\.pyc$', '^.git$', '\~$' ]
+
+" Keyboard shortcut for toggling NERDTree on/off.
+map <leader>n :NERDTreeToggle<CR>
+
+" Quit VIM if the only window left is a NERDTree window.
+autocmd bufenter * if ( winnr("$") == 1 && exists("b:NERDTreeType") &&
+    \ b:NERDTreeType == "primary" ) | q | endif
+
+" Show NERDTREE if VIM was started with no arguments (i.e. file to open).
+autocmd vimenter * if !argc() | NERDTree | endif
 

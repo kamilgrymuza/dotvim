@@ -1,3 +1,7 @@
+[nerdtree]
+source = https://github.com/scrooloose/nerdtree.git
+type = git
+
 [lucius]
 source = https://github.com/jonathanfilip/vim-lucius.git
 type = git
