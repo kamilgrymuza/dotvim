@@ -27,6 +27,10 @@ set backspace=indent,eol,start
 " Set default encoding to UTF-8 (helps with NERDTree display issues too).
 set encoding=utf-8
 
+" Enable file type detection (filetype on) as well as plugin and indent file
+" loading for specific file types.
+filetype plugin indent on
+
 
 " -----------------------------------------------------------------------------
 " TAB SETTINGS 
