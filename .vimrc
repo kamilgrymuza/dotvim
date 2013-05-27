@@ -94,7 +94,7 @@ let NERDTreeBookmarksFile="~/.NERDTreeBookmarks"
 let NERDTreeIgnore=['\.pyc$', '^.git$', '\~$' ]
 
 " Keyboard shortcut for toggling NERDTree on/off.
-map <leader>n :NERDTreeToggle<CR>
+map <leader>N :NERDTreeToggle<CR>
 
 " Quit VIM if the only window left is a NERDTree window.
 autocmd bufenter * if ( winnr("$") == 1 && exists("b:NERDTreeType") &&
@@ -102,4 +102,5 @@ autocmd bufenter * if ( winnr("$") == 1 && exists("b:NERDTreeType") &&
 
 " Show NERDTREE if VIM was started with no arguments (i.e. file to open).
 autocmd vimenter * if !argc() | NERDTree | endif
+
 
