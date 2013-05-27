@@ -34,6 +34,10 @@ set encoding=utf-8
 " loading for specific file types.
 filetype plugin indent on
 
+" Allow using j/k keys in code completion lists.
+inoremap <expr> j ((pumvisible())?("\<C-n>"):("j"))
+inoremap <expr> k ((pumvisible())?("\<C-p>"):("k"))
+
 
 " -----------------------------------------------------------------------------
 " TAB SETTINGS 
