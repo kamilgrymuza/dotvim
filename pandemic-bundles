@@ -1,0 +1,4 @@
+[lucius]
+source = https://github.com/jonathanfilip/vim-lucius.git
+type = git
+
