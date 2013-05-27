@@ -2,6 +2,10 @@
 source = https://github.com/davidhalter/jedi-vim.git
 type = git
 
+[minibuffexplorer]
+source = https://github.com/fholgado/minibufexpl.vim.git
+type = git
+
 [nerdtree]
 source = https://github.com/scrooloose/nerdtree.git
 type = git
