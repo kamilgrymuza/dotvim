@@ -5,6 +5,9 @@
 " Turn on highlighting by default.
 syntax on
 
+" Set the marker at line 81
+set colorcolumn=81
+
 
 " ------------------------------------------------------------------------------
 " PATHOGEN AND PANDEMIC 
