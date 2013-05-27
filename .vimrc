@@ -111,3 +111,10 @@ autocmd bufenter * if ( winnr("$") == 1 && exists("b:NERDTreeType") &&
 autocmd vimenter * if !argc() | NERDTree | endif
 
 
+" -----------------------------------------------------------------------------
+" JEDI
+" -----------------------------------------------------------------------------
+
+" Disable automatic display of documentation, this can be achieved with K key.
+let g:jedi#show_function_definition = "0"
+
