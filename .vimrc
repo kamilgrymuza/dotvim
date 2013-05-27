@@ -20,6 +20,10 @@ set textwidth=79
 " Enable automatic wrapping of comments but not text to to textwidth.
 set formatoptions+=c
 
+" Allow backspacing over autoindents, line breaks and before start of an
+" insert.
+set backspace=indent,eol,start
+
 
 " -----------------------------------------------------------------------------
 " TAB SETTINGS 
