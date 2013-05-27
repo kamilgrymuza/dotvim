@@ -1,7 +1,7 @@
 
-" ------------------------------------------------------------------------------
+" -----------------------------------------------------------------------------
 " BASIC VIM SETTINGS 
-" ------------------------------------------------------------------------------
+" -----------------------------------------------------------------------------
 
 " Disable compatibility with VI - in most cases this is superfluous, but
 " better to be safe than sorry - see http://stackoverflow.com/
@@ -11,13 +11,19 @@ set nocompatible
 " Turn on highlighting by default.
 syntax on
 
-" Set the marker at line 81
-set colorcolumn=81
+" Set the marker at line 80 to fit the text in 79 columns as suggested by PEP8.
+set colorcolumn=80
+
+" Set textwidth used for automatic wrapping to 79 columns as suggested by PEP8.
+set textwidth=79
+
+" Enable automatic wrapping of comments but not text to to textwidth.
+set formatoptions+=c
 
 
-" ------------------------------------------------------------------------------
+" -----------------------------------------------------------------------------
 " TAB SETTINGS 
-" ------------------------------------------------------------------------------
+" -----------------------------------------------------------------------------
 
 " Display 4 space characters instead of a \t when reading a file.
 set tabstop=4
@@ -35,9 +41,9 @@ set expandtab
 set softtabstop=4
 
 
-" ------------------------------------------------------------------------------
+" -----------------------------------------------------------------------------
 " PATHOGEN AND PANDEMIC 
-" ------------------------------------------------------------------------------
+" -----------------------------------------------------------------------------
 
 " Enable pathogen for local bundles (.vim/bundle).
 call pathogen#infect() 
@@ -46,9 +52,9 @@ call pathogen#infect()
 execute pathogen#infect('bundle.remote/{}')
 
 
-" ------------------------------------------------------------------------------
+" -----------------------------------------------------------------------------
 " COLORS AND THEME
-" ------------------------------------------------------------------------------
+" -----------------------------------------------------------------------------
 
 " Enable more colors - required by some themes.
 set t_Co=256
