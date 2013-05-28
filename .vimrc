@@ -118,3 +118,8 @@ autocmd vimenter * if !argc() | NERDTree | endif
 " Disable automatic display of documentation, this can be achieved with K key.
 let g:jedi#show_function_definition = "0"
 
+" -----------------------------------------------------------------------------
+" SITE CUSTOMIZATIONS
+" -----------------------------------------------------------------------------
+"
+autocmd BufRead *_js_test.html set ft=javascript
