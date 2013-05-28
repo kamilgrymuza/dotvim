@@ -30,6 +30,10 @@ set backspace=indent,eol,start
 " Set default encoding to UTF-8 (helps with NERDTree display issues too).
 set encoding=utf-8
 
+" Ensure there are at least 3 lines of "context" visible before scrolling
+" starts.
+set scrolloff=3
+
 " Enable file type detection (filetype on) as well as plugin and indent file
 " loading for specific file types.
 filetype plugin indent on
