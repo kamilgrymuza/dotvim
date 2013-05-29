@@ -34,6 +34,9 @@ set encoding=utf-8
 " starts.
 set scrolloff=3
 
+" Mark current line so that it's easier to find especially when searching.
+set cursorline
+
 " Enable file type detection (filetype on) as well as plugin and indent file
 " loading for specific file types.
 filetype plugin indent on
