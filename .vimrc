@@ -162,6 +162,17 @@ let g:pymode_lint_config=expand('$HOME/.pylintrc')
 
 
 " -----------------------------------------------------------------------------
+" SYNTASTIC
+" -----------------------------------------------------------------------------
+
+" Have Syntastic open the quickfix window.
+let syntastic_auto_loc_list=1
+
+" Have Syntastic populate the quickfix window.
+let g:syntastic_always_populate_loc_list=1
+
+
+" -----------------------------------------------------------------------------
 " SUPERTAB
 " -----------------------------------------------------------------------------
 
