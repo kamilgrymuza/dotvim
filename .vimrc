@@ -50,6 +50,17 @@ inoremap <expr> k ((pumvisible())?("\<C-p>"):("k"))
 
 
 " -----------------------------------------------------------------------------
+" UNDO 
+" -----------------------------------------------------------------------------
+
+" Ask VIM to keep undo history after the buffer is closed.
+set undofile
+
+" Keep undo history outside the source tree.
+set undodir=expand('$HOME/.vim-undodir')
+
+
+" -----------------------------------------------------------------------------
 " TAB SETTINGS 
 " -----------------------------------------------------------------------------
 
@@ -126,10 +137,10 @@ autocmd vimenter * if !argc() | NERDTree | endif
 " -----------------------------------------------------------------------------
 
 " Disable automatic display of documentation, this can be achieved with K key.
-let g:jedi#show_function_definition = 0
+let g:jedi#show_function_definition=0
 
 " Disable showing completions when dot is entered (in favor of supertab).
-let g:jedi#popup_on_dot = 0
+let g:jedi#popup_on_dot=0
 
 " -----------------------------------------------------------------------------
 " SUPERTAB
