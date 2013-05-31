@@ -48,6 +48,16 @@ filetype plugin indent on
 inoremap <expr> j ((pumvisible())?("\<C-n>"):("j"))
 inoremap <expr> k ((pumvisible())?("\<C-p>"):("k"))
 
+" Disable using arrows in normal and insert mode to promote use of h/j/k/l.
+nnoremap <up> <nop>
+nnoremap <down> <nop>
+nnoremap <left> <nop>
+nnoremap <right> <nop>
+inoremap <up> <nop>
+inoremap <down> <nop>
+inoremap <left> <nop>
+inoremap <right> <nop>
+
 
 " -----------------------------------------------------------------------------
 " UNDO 
