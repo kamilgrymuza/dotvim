@@ -152,6 +152,26 @@ let g:SuperTabDefaultCompletionType = "context"
 
 
 " -----------------------------------------------------------------------------
+" GUNDO 
+" -----------------------------------------------------------------------------
+
+" Toggle Gundo with the \g key combination.
+nnoremap <leader>g :GundoToggle<CR>
+
+" Set the width of the Gundo window.
+let g:gundo_width = 60
+
+" Set the height of the window in which Gundo displays a diff.
+let g:gundo_preview_height = 20
+
+" Display on the right rather than left side of the window.
+let g:gundo_right = 1
+
+" Display preview at bottom not on top.
+let g:gundo_preview_bottom = 1
+
+
+" -----------------------------------------------------------------------------
 " CUSTOM FUNCTIONS
 " -----------------------------------------------------------------------------
 
