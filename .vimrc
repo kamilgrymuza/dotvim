@@ -126,7 +126,18 @@ autocmd vimenter * if !argc() | NERDTree | endif
 " -----------------------------------------------------------------------------
 
 " Disable automatic display of documentation, this can be achieved with K key.
-let g:jedi#show_function_definition = "0"
+let g:jedi#show_function_definition = 0
+
+" Disable showing completions when dot is entered (in favor of supertab).
+let g:jedi#popup_on_dot = 0
+
+" -----------------------------------------------------------------------------
+" SUPERTAB
+" -----------------------------------------------------------------------------
+
+" Ask Supertab to use smart completion, e.g. take into account attribute access
+" with a dot.
+let g:SuperTabDefaultCompletionType = "context"
 
 
 " -----------------------------------------------------------------------------

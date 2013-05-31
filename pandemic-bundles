@@ -1,9 +1,9 @@
-[jedi]
-source = https://github.com/davidhalter/jedi-vim.git
+[minibuffexplorer]
+source = https://github.com/fholgado/minibufexpl.vim.git
 type = git
 
-[lucius]
-source = https://github.com/jonathanfilip/vim-lucius.git
+[jedi]
+source = https://github.com/davidhalter/jedi-vim.git
 type = git
 
 [nerdcommenter]
@@ -14,7 +14,11 @@ type = git
 source = https://github.com/scrooloose/nerdtree.git
 type = git
 
-[minibuffexplorer]
-source = https://github.com/fholgado/minibufexpl.vim.git
+[lucius]
+source = https://github.com/jonathanfilip/vim-lucius.git
+type = git
+
+[supertab]
+source = https://github.com/ervandew/supertab.git
 type = git
 
