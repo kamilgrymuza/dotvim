@@ -6,6 +6,10 @@ type = git
 source = https://github.com/vim-scripts/TaskList.vim.git
 type = git
 
+[ack]
+source = https://github.com/mileszs/ack.vim.git
+type = git
+
 [minibuffexplorer]
 source = https://github.com/fholgado/minibufexpl.vim.git
 type = git
