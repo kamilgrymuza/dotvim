@@ -2,8 +2,12 @@
 source = https://github.com/sjl/gundo.vim.git
 type = git
 
-[lucius]
-source = https://github.com/jonathanfilip/vim-lucius.git
+[minibuffexplorer]
+source = https://github.com/fholgado/minibufexpl.vim.git
+type = git
+
+[pythonmode]
+source = https://github.com/klen/python-mode.git
 type = git
 
 [jedi]
@@ -18,8 +22,8 @@ type = git
 source = https://github.com/scrooloose/nerdtree.git
 type = git
 
-[minibuffexplorer]
-source = https://github.com/fholgado/minibufexpl.vim.git
+[lucius]
+source = https://github.com/jonathanfilip/vim-lucius.git
 type = git
 
 [supertab]

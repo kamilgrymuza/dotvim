@@ -152,6 +152,15 @@ let g:jedi#show_function_definition=0
 " Disable showing completions when dot is entered (in favor of supertab).
 let g:jedi#popup_on_dot=0
 
+
+" -----------------------------------------------------------------------------
+" PYTHON-MODE 
+" -----------------------------------------------------------------------------
+
+" Set pylint config path.
+let g:pymode_lint_config=expand('$HOME/.pylintrc')
+
+
 " -----------------------------------------------------------------------------
 " SUPERTAB
 " -----------------------------------------------------------------------------
