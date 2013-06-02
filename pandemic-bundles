@@ -10,6 +10,10 @@ type = git
 source = https://github.com/mileszs/ack.vim.git
 type = git
 
+[notes]
+source = https://github.com/xolox/vim-notes.git
+type = git
+
 [unimpaired]
 source = https://github.com/tpope/vim-unimpaired.git
 type = git
@@ -32,6 +36,10 @@ type = git
 
 [nerdtree]
 source = https://github.com/scrooloose/nerdtree.git
+type = git
+
+[xolox-vim-misc]
+source = https://github.com/xolox/vim-misc.git
 type = git
 
 [syntastic]
