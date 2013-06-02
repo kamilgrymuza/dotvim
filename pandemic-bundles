@@ -10,6 +10,10 @@ type = git
 source = https://github.com/mileszs/ack.vim.git
 type = git
 
+[unimpaired]
+source = https://github.com/tpope/vim-unimpaired.git
+type = git
+
 [minibuffexplorer]
 source = https://github.com/fholgado/minibufexpl.vim.git
 type = git
