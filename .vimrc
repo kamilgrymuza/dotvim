@@ -61,6 +61,10 @@ inoremap <down> <nop>
 inoremap <left> <nop>
 inoremap <right> <nop>
 
+" Toggle paste mode on <leader>P. 
+" Use nmap instead of pastetoggle because it will echo current state.
+nmap <leader>P :setlocal paste! paste?<cr>
+
 
 " -----------------------------------------------------------------------------
 " UNDO 
