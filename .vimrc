@@ -40,6 +40,9 @@ set cursorline
 " Enable mouse for all modes.
 set mouse=a
 
+" Allow for storing and searching among up to 1K items in command history.
+set history=1000
+
 " Enable file type detection (filetype on) as well as plugin and indent file
 " loading for specific file types.
 filetype plugin indent on
@@ -68,6 +71,9 @@ set undofile
 
 " Keep undo history outside the source tree.
 set undodir=expand('$HOME/.vim-undodir')
+
+" Keep up to 1K changes in the undo tree.
+set undolevels=1000
 
 
 " -----------------------------------------------------------------------------
