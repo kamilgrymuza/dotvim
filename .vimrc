@@ -43,6 +43,10 @@ set mouse=a
 " Allow for storing and searching among up to 1K items in command history.
 set history=1000
 
+" Ask VIM to hide buffers rather than closing them which allows for preserving
+" undo capabilities as long as VIM wasn't closed.
+set hidden
+
 " Enable file type detection (filetype on) as well as plugin and indent file
 " loading for specific file types.
 filetype plugin indent on
@@ -64,6 +68,9 @@ inoremap <right> <nop>
 " Toggle paste mode on <leader>P. 
 " Use nmap instead of pastetoggle because it will echo current state.
 nmap <leader>P :setlocal paste! paste?<cr>
+
+" Make statusline more useful.
+set statusline=%<\ %n:%f\ %m%r%y%=%-35.(line:\ %l\ of\ %L,\ col:\ %c%V\ (%P)%)
 
 
 " -----------------------------------------------------------------------------
@@ -150,6 +157,14 @@ autocmd bufenter * if ( winnr("$") == 1 && exists("b:NERDTreeType") &&
 
 " Show NERDTREE if VIM was started with no arguments (i.e. file to open).
 autocmd vimenter * if !argc() | NERDTree | endif
+
+" -----------------------------------------------------------------------------
+" MINIBUFEXPL
+" -----------------------------------------------------------------------------
+
+" Disable duplicate buffer name checking which should speed up Vim with 
+" many buffers.
+let g:miniBufExplCheckDupeBufs = 0
 
 
 " -----------------------------------------------------------------------------
@@ -325,5 +340,7 @@ command! -nargs=+ QFDo call QFDo(<q-args>)
 " Ensure JavaScript sugar is available in QUnit test files.
 autocmd BufRead *_js_test.html set ft=javascript
 
+" Ensure HBS templates are considered HTML.
+autocmd BufRead *.hbs set ft=html
 
 
