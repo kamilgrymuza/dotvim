@@ -203,7 +203,7 @@ let g:syntastic_always_populate_loc_list=1
 " -----------------------------------------------------------------------------
 
 " Have notes be stored in user homedir.
-:let g:notes_directories = ['~/vim-notes']
+:let g:notes_directories = ['~/Dropbox/vimnotes']
 
 " Keyboard shortcut for creating a new note.
 map <leader>n :Note<CR>
