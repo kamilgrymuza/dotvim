@@ -6,6 +6,10 @@ type = git
 source = https://github.com/vim-scripts/TaskList.vim.git
 type = git
 
+[handlebars]
+source = git://github.com/nono/vim-handlebars.git
+type = git
+
 [ack]
 source = https://github.com/mileszs/ack.vim.git
 type = git
@@ -28,6 +32,10 @@ type = git
 
 [jedi]
 source = https://github.com/davidhalter/jedi-vim.git
+type = git
+
+[wordpress-vim]
+source = https://github.com/kloppster/Wordpress-Vim-Syntax.git
 type = git
 
 [nerdcommenter]

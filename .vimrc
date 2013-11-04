@@ -343,4 +343,8 @@ autocmd BufRead *_js_test.html set ft=javascript
 " Ensure HBS templates are considered HTML.
 autocmd BufRead *.hbs set ft=html
 
+" Ensure .conf files have proper syntax
+autocmd BufRead *.conf set ft=dosini
 
+" Enable wordpress syntax for php files
+autocmd BufEnter *.php :set syn=wordpress
