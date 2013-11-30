@@ -34,7 +34,7 @@ type = git
 source = https://github.com/davidhalter/jedi-vim.git
 type = git
 
-[wordpress-vim]
+[wordpress-syntax]
 source = https://github.com/kloppster/Wordpress-Vim-Syntax.git
 type = git
 
