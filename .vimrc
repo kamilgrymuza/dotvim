@@ -199,6 +199,14 @@ let g:syntastic_always_populate_loc_list=1
 
 
 " -----------------------------------------------------------------------------
+" JSBEAUTIFY
+" -----------------------------------------------------------------------------
+
+" Map CTRL+f to JsBeautify call when editing JavaScript files
+autocmd FileType javascript noremap <buffer> <c-f> :call JsBeautify()<cr>
+
+
+" -----------------------------------------------------------------------------
 " NOTES
 " -----------------------------------------------------------------------------
 
@@ -348,3 +356,4 @@ autocmd BufRead *.conf set ft=dosini
 
 " Enable wordpress syntax for php files
 autocmd BufEnter *.php :set syn=wordpress
+
