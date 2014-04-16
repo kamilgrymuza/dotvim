@@ -340,6 +340,9 @@ map W :call Wipeout()<CR>
 " Allow for using just "QFDo" instead of "call QFDo" in command line.
 command! -nargs=+ QFDo call QFDo(<q-args>)
 
+" CSSComb keyboard shortcut.
+map <leader>c :CSScomb<CR>
+
 
 " -----------------------------------------------------------------------------
 " SITE CUSTOMIZATIONS

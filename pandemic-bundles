@@ -58,6 +58,10 @@ type = git
 source = https://github.com/scrooloose/syntastic.git
 type = git
 
+[csscomb]
+source = https://github.com/miripiruni/CSScomb-for-Vim.git
+type = git
+
 [lucius]
 source = https://github.com/jonathanfilip/vim-lucius.git
 type = git
