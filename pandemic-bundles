@@ -70,3 +70,7 @@ type = git
 source = https://github.com/ervandew/supertab.git
 type = git
 
+[editorconfig]
+source = https://github.com/editorconfig/editorconfig-vim.git
+type = git
+
