@@ -26,8 +26,8 @@ type = git
 source = https://github.com/fholgado/minibufexpl.vim.git
 type = git
 
-[jsbeautify]
-source = https://github.com/maksimr/vim-jsbeautify.git
+[golang]
+source = https://github.com/jnwhiteh/vim-golang.git
 type = git
 
 [pythonmode]
