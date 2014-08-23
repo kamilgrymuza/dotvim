@@ -88,7 +88,7 @@ set undolevels=1000
 
 
 " -----------------------------------------------------------------------------
-" TAB SETTINGS 
+" DEFAULT TAB SETTINGS
 " -----------------------------------------------------------------------------
 
 " Display 4 space characters instead of a \t when reading a file.
@@ -105,6 +105,14 @@ set expandtab
 
 " Insert 4 space characters in insert mode when a TAB key is hit.
 set softtabstop=4
+
+
+" -----------------------------------------------------------------------------
+" FILETYPE SPECIFIC TAB SETTINGS
+" -----------------------------------------------------------------------------
+
+" Set smaller indent for CSS/SASS
+autocmd BufRead,BufNewFile *.css,*.scss set ts=2 sw=2
 
 
 " -----------------------------------------------------------------------------
