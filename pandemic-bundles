@@ -66,6 +66,10 @@ type = git
 source = https://github.com/jonathanfilip/vim-lucius.git
 type = git
 
+[dockerfile]
+source = https://github.com/ekalinin/Dockerfile.vim.git
+type = git
+
 [supertab]
 source = https://github.com/ervandew/supertab.git
 type = git
