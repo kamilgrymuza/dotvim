@@ -77,14 +77,17 @@ set statusline=%<\ %n:%f\ %m%r%y%=%-35.(line:\ %l\ of\ %L,\ col:\ %c%V\ (%P)%)
 " UNDO 
 " -----------------------------------------------------------------------------
 
+" Keep undo history outside the source tree.
+set undodir=~/.vimundodir
+
 " Ask VIM to keep undo history after the buffer is closed.
 set undofile
 
-" Keep undo history outside the source tree.
-set undodir=expand('$HOME/.vim-undodir')
-
 " Keep up to 1K changes in the undo tree.
 set undolevels=1000
+
+" Keep up to 10K lines in undo history
+set undoreload=10000
 
 
 " -----------------------------------------------------------------------------
