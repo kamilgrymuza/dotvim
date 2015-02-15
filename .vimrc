@@ -211,6 +211,9 @@ let syntastic_auto_loc_list=0
 " Have Syntastic populate the quickfix window.
 let g:syntastic_always_populate_loc_list=1
 
+" User JSXHint instead of JSHint to allow linting JSX files.
+let g:syntastic_javascript_checkers = ['jsxhint']
+
 
 " -----------------------------------------------------------------------------
 " JSBEAUTIFY
