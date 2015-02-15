@@ -14,11 +14,11 @@ syntax on
 " Turn on line numbering by default.
 set number
 
-" Set the marker at line 80 to fit the text in 79 columns as suggested by PEP8.
-set colorcolumn=80
+" Set the marker at line 100 to fit the text in 99 columns.
+set colorcolumn=100
 
-" Set textwidth used for automatic wrapping to 79 columns as suggested by PEP8.
-set textwidth=79
+" Set textwidth used for automatic wrapping to 99 columns.
+set textwidth=99
 
 " Enable automatic wrapping of comments but not text to to textwidth.
 set formatoptions+=c
@@ -198,6 +198,9 @@ let g:pymode_lint_config=expand('$HOME/.pylintrc')
 
 " Disable automatic folding
 let g:pymode_folding=0
+
+" Change default line-length warning to match 100 line settings above
+let g:pymode_options_max_line_length=100
 
 
 " -----------------------------------------------------------------------------
