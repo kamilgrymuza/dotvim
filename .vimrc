@@ -196,6 +196,9 @@ let g:jedi#popup_on_dot=0
 " Set pylint config path.
 let g:pymode_lint_config=expand('$HOME/.pylintrc')
 
+" Disable automatic folding
+let g:pymode_folding=0
+
 
 " -----------------------------------------------------------------------------
 " SYNTASTIC
