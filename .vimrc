@@ -188,6 +188,9 @@ let g:jedi#show_function_definition=0
 " Disable showing completions when dot is entered (in favor of supertab).
 let g:jedi#popup_on_dot=0
 
+" Disable showing functon signatures (is slow).
+let g:jedi#show_call_signatures = 0
+
 
 " -----------------------------------------------------------------------------
 " PYTHON-MODE 
