@@ -18,6 +18,10 @@ type = git
 source = https://github.com/xolox/vim-notes.git
 type = git
 
+[goyo]
+source = git@github.com:junegunn/goyo.vim.git
+type = git
+
 [unimpaired]
 source = https://github.com/tpope/vim-unimpaired.git
 type = git
