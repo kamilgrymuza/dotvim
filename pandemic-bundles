@@ -1,61 +1,13 @@
-[gundo]
-source = https://github.com/sjl/gundo.vim.git
-type = git
-
-[tasklist]
-source = https://github.com/vim-scripts/TaskList.vim.git
-type = git
-
 [handlebars]
 source = git://github.com/nono/vim-handlebars.git
-type = git
-
-[ack]
-source = https://github.com/mileszs/ack.vim.git
-type = git
-
-[notes]
-source = https://github.com/xolox/vim-notes.git
-type = git
-
-[goyo]
-source = git@github.com:junegunn/goyo.vim.git
 type = git
 
 [unimpaired]
 source = https://github.com/tpope/vim-unimpaired.git
 type = git
 
-[minibuffexplorer]
-source = https://github.com/fholgado/minibufexpl.vim.git
-type = git
-
 [golang]
 source = https://github.com/jnwhiteh/vim-golang.git
-type = git
-
-[pythonmode]
-source = https://github.com/klen/python-mode.git
-type = git
-
-[jedi]
-source = https://github.com/davidhalter/jedi-vim.git
-type = git
-
-[wordpress-syntax]
-source = https://github.com/kloppster/Wordpress-Vim-Syntax.git
-type = git
-
-[nerdcommenter]
-source = https://github.com/scrooloose/nerdcommenter.git
-type = git
-
-[nerdtree]
-source = https://github.com/scrooloose/nerdtree.git
-type = git
-
-[xolox-vim-misc]
-source = https://github.com/xolox/vim-misc.git
 type = git
 
 [syntastic]
@@ -70,6 +22,30 @@ type = git
 source = https://github.com/jonathanfilip/vim-lucius.git
 type = git
 
+[todo]
+source = https://github.com/vim-scripts/todo-txt.vim.git
+type = git
+
+[virtualenv]
+source = https://github.com/jmcantrell/vim-virtualenv.git
+type = git
+
+[pythonmode]
+source = https://github.com/klen/python-mode.git
+type = git
+
+[jedi]
+source = https://github.com/davidhalter/jedi-vim.git
+type = git
+
+[nerdcommenter]
+source = https://github.com/scrooloose/nerdcommenter.git
+type = git
+
+[nerdtree]
+source = https://github.com/scrooloose/nerdtree.git
+type = git
+
 [dockerfile]
 source = https://github.com/ekalinin/Dockerfile.vim.git
 type = git
@@ -78,7 +54,35 @@ type = git
 source = https://github.com/ervandew/supertab.git
 type = git
 
+[tasklist]
+source = https://github.com/vim-scripts/TaskList.vim.git
+type = git
+
+[goyo]
+source = git@github.com:junegunn/goyo.vim.git
+type = git
+
+[gundo]
+source = https://github.com/sjl/gundo.vim.git
+type = git
+
+[ack]
+source = https://github.com/mileszs/ack.vim.git
+type = git
+
+[notes]
+source = https://github.com/xolox/vim-notes.git
+type = git
+
+[minibuffexplorer]
+source = https://github.com/fholgado/minibufexpl.vim.git
+type = git
+
 [editorconfig]
 source = https://github.com/editorconfig/editorconfig-vim.git
+type = git
+
+[xolox-vim-misc]
+source = https://github.com/xolox/vim-misc.git
 type = git
 

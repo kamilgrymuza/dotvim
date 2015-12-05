@@ -241,6 +241,15 @@ map <leader>n :Note<CR>
 
 
 " -----------------------------------------------------------------------------
+" TODO.TEXT
+" -----------------------------------------------------------------------------
+
+highlight  default  link  TodoPriorityA  ErrorMsg
+highlight  default  link  TodoPriorityB  WarningMsg
+highlight  default  link  TodoPriorityC  statement
+
+
+" -----------------------------------------------------------------------------
 " SUPERTAB
 " -----------------------------------------------------------------------------
 
