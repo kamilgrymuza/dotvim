@@ -182,14 +182,20 @@ let g:miniBufExplCheckDupeBufs = 0
 " JEDI
 " -----------------------------------------------------------------------------
 
-" Disable automatic display of documentation, this can be achieved with K key.
-let g:jedi#show_function_definition=0
-
 " Disable showing completions when dot is entered (in favor of supertab).
-let g:jedi#popup_on_dot=0
+let g:jedi#popup_on_dot = 0
 
-" Disable showing functon signatures (is slow).
+" Disable showing functon signatures (is slow), formerly g:jedi#show_function_definition
 let g:jedi#show_call_signatures = 0
+
+" Don't select the first element automatically
+let g:jedi#popup_select_first = 0
+
+" Display the signature in command line, which helps maintain history integrity
+let g:jedi#show_call_signatures = "2"
+
+" Disable auto selecting of the last option on neocomplete
+let g:jedi#smart_auto_mappings = 0
 
 
 " -----------------------------------------------------------------------------
@@ -205,6 +211,33 @@ let g:pymode_folding=0
 " Change default line-length warning to match 100 line settings above
 let g:pymode_options_max_line_length=100
 
+" Disable rope because it's slow
+let g:pymode_rope = 0
+
+" Prevent lookup in parent projects
+let g:pymode_rope_lookup_project = 0
+
+" Enable Rope autocomplete
+let g:pymode_rope_completion = 0
+
+" Disable autocompletion on dot
+let g:pymode_rope_complete_on_dot = 0
+
+" Import those projects automatically for auto completion
+let g:pymode_rope_autoimport_modules = ['os', 'shutil', 'datetime', 'django']
+
+" Enable virtualenv support
+let g:pymode_virtualenv = 1
+
+" Path to the virtualenv
+let g:pymode_virtualenv_path = $VIRTUAL_ENV
+
+" Don't show documentation automatically
+let g:pymode_doc = 0
+
+" Disable the key to avoid interfering with Jedi, by default <C-Space>
+let g:pymode_rope_completion_bind = ''
+
 
 " -----------------------------------------------------------------------------
 " SYNTASTIC
@@ -218,7 +251,7 @@ let syntastic_auto_loc_list=0
 let g:syntastic_always_populate_loc_list=1
 
 " User JSXHint instead of JSHint to allow linting JSX files.
-let g:syntastic_javascript_checkers = ['jsxhint']
+let g:syntastic_javascript_checkers = ['eslint']
 
 
 " -----------------------------------------------------------------------------
