@@ -47,6 +47,9 @@ set history=1000
 " undo capabilities as long as VIM wasn't closed.
 set hidden
 
+" Make sure VIM writes files in such a way that Docker can pick up the changes
+set backupcopy=yes
+
 " Enable file type detection (filetype on) as well as plugin and indent file
 " loading for specific file types.
 filetype plugin indent on
