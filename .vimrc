@@ -256,6 +256,8 @@ let g:syntastic_always_populate_loc_list=1
 " User JSXHint instead of JSHint to allow linting JSX files.
 let g:syntastic_javascript_checkers = ['eslint']
 
+let g:javascript_plugin_jsdoc = 1
+
 
 " -----------------------------------------------------------------------------
 " JSBEAUTIFY
