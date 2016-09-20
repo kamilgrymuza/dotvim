@@ -2,6 +2,10 @@
 source = git://github.com/nono/vim-handlebars.git
 type = git
 
+[gitgutter]
+source = git://github.com/airblade/vim-gitgutter.git
+type = git
+
 [unimpaired]
 source = https://github.com/tpope/vim-unimpaired.git
 type = git
@@ -18,16 +22,20 @@ type = git
 source = https://github.com/miripiruni/CSScomb-for-Vim.git
 type = git
 
-[lucius]
-source = https://github.com/jonathanfilip/vim-lucius.git
+[minibuffexplorer]
+source = https://github.com/fholgado/minibufexpl.vim.git
 type = git
 
-[todo]
-source = https://github.com/vim-scripts/todo-txt.vim.git
+[vimjs]
+source = https://github.com/pangloss/vim-javascript.git
 type = git
 
 [virtualenv]
 source = https://github.com/jmcantrell/vim-virtualenv.git
+type = git
+
+[todo]
+source = https://github.com/vim-scripts/todo-txt.vim.git
 type = git
 
 [pythonmode]
@@ -54,6 +62,10 @@ type = git
 source = https://github.com/ervandew/supertab.git
 type = git
 
+[editorconfig]
+source = https://github.com/editorconfig/editorconfig-vim.git
+type = git
+
 [tasklist]
 source = https://github.com/vim-scripts/TaskList.vim.git
 type = git
@@ -74,12 +86,12 @@ type = git
 source = https://github.com/xolox/vim-notes.git
 type = git
 
-[minibuffexplorer]
-source = https://github.com/fholgado/minibufexpl.vim.git
+[lucius]
+source = https://github.com/jonathanfilip/vim-lucius.git
 type = git
 
-[editorconfig]
-source = https://github.com/editorconfig/editorconfig-vim.git
+[vimjsx]
+source = https://github.com/mxw/vim-jsx.git
 type = git
 
 [xolox-vim-misc]
