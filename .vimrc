@@ -160,7 +160,7 @@ let NERDTreeShowBookmarks=1
 let NERDTreeBookmarksFile=expand('$HOME/.NERDTreeBookmarks')
 
 " Ignore some files.
-let NERDTreeIgnore=['\.pyc$', '^.git$', '\~$' ]
+let NERDTreeIgnore=['\.pyc$', '^.git$', '\~$', '__pycache__' ]
 
 " Keyboard shortcut for toggling NERDTree on/off.
 map <leader>N :NERDTreeToggle<CR>
